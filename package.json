@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-camera",
-  "version": "6.0.1-dev",
+  "name": "@moodlehq/cordova-plugin-camera",
+  "version": "6.0.0-moodle.1",
   "description": "Cordova Camera Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-camera",
+    "id": "@moodlehq/cordova-plugin-camera",
     "platforms": [
       "android",
       "ios",
@@ -13,8 +13,8 @@
       "osx"
     ]
   },
-  "repository": "github:apache/cordova-plugin-camera",
-  "bugs": "https://github.com/apache/cordova-plugin-camera/issues",
+  "repository": "github:moodlemobile/cordova-plugin-camera",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-camera/issues",
   "keywords": [
     "cordova",
     "camera",

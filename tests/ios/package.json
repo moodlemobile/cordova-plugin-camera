@@ -1,5 +1,5 @@
 {
-    "name": "cordova-plugin-camera-test-ios",
+    "name": "@moodlehq/cordova-plugin-camera-test-ios",
     "version": "1.0.0",
     "description": "iOS Unit Tests for Camera Plugin",
     "author": "Apache Software Foundation",
