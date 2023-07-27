@@ -13,12 +13,12 @@ We created this fork because we needed to include the following modifications in
 | [cordova-plugin-camera#827](https://github.com/apache/cordova-plugin-camera/pull/827) | fix: set applicationId |
 | [cordova-plugin-camera#814](https://github.com/apache/cordova-plugin-camera/pull/814) | Android 13 support |
 
-You can see all the changes here: [6.0.0...moodlemobile:v6.0.0-moodle.1](https://github.com/apache/cordova-plugin-camera/compare/6.0.0...moodlemobile:v6.0.0-moodle.1)
+You can see all the changes here: [6.0.0...moodlemobile:v6.0.0-moodle.2](https://github.com/apache/cordova-plugin-camera/compare/6.0.0...moodlemobile:v6.0.0-moodle.2)
 
 ## Installation
 
 You can install this package using the [original installation instructions](https://github.com/apache/cordova-plugin-camera#installation), but installing this package instead:
 
 ```sh
-cordova plugin add @moodlehq/cordova-plugin-camera@6.0.0-moodle.1
+cordova plugin add @moodlehq/cordova-plugin-camera@6.0.0-moodle.2
 ```
