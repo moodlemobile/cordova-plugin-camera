@@ -277,12 +277,7 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
      */
     public void callTakePicture(int returnType, int encodingType) {
         String[] storagePermissions = getPermissions(true, mediaType);
-        boolean saveAlbumPermission;
-        if (this.saveToPhotoAlbum) {
-            saveAlbumPermission = hasPermissions(storagePermissions);
-        } else {
-            saveAlbumPermission = true;
-        }
+        boolean saveAlbumPermission = hasPermissions(storagePermissions);
 
         boolean takePicturePermission = PermissionHelper.hasPermission(this, Manifest.permission.CAMERA);
 
